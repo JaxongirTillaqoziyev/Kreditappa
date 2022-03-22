@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TahrirlashOyna">
+    <EditText
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/id"
+        android:enabled="false"
+        android:hint="ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_below="@+id/id"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/izohh"
+        android:hint="Izoh qo'shing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="100dp"
+        android:text="@string/izohni_yangilash"
+        android:layout_below="@+id/izohh"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:onClick="btn_updateData"
+
+        />
+
+</RelativeLayout>

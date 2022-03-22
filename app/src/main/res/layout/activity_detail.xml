@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_marginTop="20sp"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+    <TextView
+
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        android:text="id"
+        android:textSize="20sp"
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/familyaismshariffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--         <TextView-->
+<!--             android:textStyle="bold"-->
+<!--             android:textSize="20sp"-->
+<!--             android:layout_marginLeft="12sp"-->
+
+<!--             android:id="@+id/txt_tug_yil"-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="wrap_content"-->
+
+<!--             android:text="FIO" />-->
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_shartnoma_raqami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_shartnoma_sanasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_tovar_summasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_oldindan_tulov_summasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_bir_oylik_tulovi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_jami_tulagan_summasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_tulab_ketgan_sanasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_jami_qarzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_kechikkan_summasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="FIO"
+        android:id="@+id/txt_telefon_raqami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_ish_joyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    <TextView-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginLeft="12sp"-->
+
+<!--        android:text="FIO"-->
+<!--        android:id="@+id/txt_lavozimi"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_regioni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="FIO"
+        android:id="@+id/txt_manzili"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+         <TextView
+             android:textStyle="bold"
+             android:textSize="20sp"
+             android:layout_marginLeft="12sp"
+
+             android:text="FIO"
+             android:id="@+id/txt_oyi"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/kuk"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="12sp"
+        android:text="izoh"
+        android:id="@+id/txt_izoh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+     </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Universal Kredit</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">Contacts</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+    <string name="loginni_kiriting">Loginni kiriting</string>
+    <string name="parolni_kiriting">parolni kiriting</string>
+    <string name="meni_eslab_qol">Meni eslab qol</string>
+    <string name="tizimga_kirish">Tizimga kirish</string>
+    <string name="tanlash">Tanlash</string>
+    <string name="sms_jo_natish">Sms jo\'natish</string>
+    <string name="qidirish">Qidirish</string>
+    <string name="manzillar">Manzil</string>
+    <string name="sms">SMS</string>
+    <string name="regionlar">Region</string>
+    <string name="izohni_yangilash">Izohni yangilash</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#82C1F3"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20sp"
+        android:autofillHints=""
+        android:hint="@string/loginni_kiriting"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/parol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="@string/parolni_kiriting"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck"
+        android:autofillHints="" />
+
+    <CheckBox
+        android:id="@+id/checkboxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parol"
+        android:layout_marginStart="20sp"
+        android:text="@string/meni_eslab_qol"
+        android:textColor="#880E4F"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/tizimgakirish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parol"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:text="@string/tizimga_kirish"
+        android:textColor="#81D4FA" />
+
+</RelativeLayout>
